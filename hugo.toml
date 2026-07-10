@@ -1,0 +1,21 @@
+baseURL = "https://alondoeshomelabbing.com/"
+title = "Alon's Home Lab"
+theme = "hextra"
+
+[params]
+  description = "Home lab documentation and status"
+
+[[menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Projects"
+  pageRef = "/projects"
+  weight = 2
+
+[[menu.main]]
+  name = "Status"
+  pageRef = "/status"
+  weight = 3
